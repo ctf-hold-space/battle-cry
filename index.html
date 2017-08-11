@@ -16,6 +16,12 @@ capture: the flag
         background-repeat-x: no-repeat;
         background-image: url("images/leftfrill.png");
       }
+      #rightbg {
+        height: 100%;
+        width: 100%;
+        background-repeat-x: no-repeat;
+        background-image: url("images/rightfrill.png");
+      }
       a {
         color: {{site.flag.color}};
         text-shadow: 1px 1px 1px {{site.flag.highlight}};
@@ -25,7 +31,7 @@ capture: the flag
       }
     </style>
   </head>
-  <body>
+  <body><div id="rightbg">
     <h1>{{site.battle.cry}}</h1>
 
     <h2>Ritual Warfare: Capture the Flag</h2>
@@ -44,6 +50,6 @@ capture: the flag
 
     <p class="small"><a href="{{site.other_site.url}}">wait i think this is the wrong team</a></p>
 
-  </body>
+  </div></body>
 </html>
 
