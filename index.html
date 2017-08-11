@@ -13,16 +13,17 @@ capture: the flag
         text-shadow: 1px 1px 1px {{site.flag.color}};
         font-family: {{site.font.family}};
         font-size: 24pt;
-        background-repeat-x: no-repeat;
+        background-repeat: repeat-y;
+        background-position: top left;
         background-image: url("images/leftfrill.png");
         margin: 0;
       }
       #rightbg {
         height: 100%;
         width: 100%;
-        background-repeat-x: no-repeat;
+        background-repeat: repeat-y;
         background-image: url("images/rightfrill.png");
-        background-position-x: right;
+        background-position: top right;
       }
       a {
         color: {{site.flag.color}};
