@@ -5,6 +5,7 @@ team:
 battle:
   cry: "HOLD SPACE"
 flag:
+  background: white
   color: silver
   highlight: SeaGreen
 font:
