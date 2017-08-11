@@ -1,13 +1,13 @@
 team:
   name: "Team"
   base:
-    location: "at dumb burning man"
+    location: "on the deep playa side of the Temple"
 battle:
-  cry: "BATTLE CRY"
+  cry: "HOLD SPACE"
 flag:
-  color: goldenrod
-  highlight: blue
+  color: silver
+  highlight: SeaGreen
 font:
-  family: Helvetica
+  family: Copperplate
 other_site:
-  url: http://facebook.com
+  url: http://ritualwarfare.men
